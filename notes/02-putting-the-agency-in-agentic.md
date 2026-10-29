@@ -23,6 +23,30 @@ The core loop is:
 
 An agent can use the results of an action to inform its next decision.
 
+### Agentic AI Decision Cycle
+
+```mermaid
+flowchart TD
+    A([User Goal]) --> B[Perceive: Gather Information]
+    B --> C[Reason: Analyze and Plan]
+    C --> D[Decide: Select Action]
+    D --> E{Security Authorization Check}
+    E -->|Authorized| F[Act: Execute Tool]
+    E -->|Denied| G[Reject and Log]
+    E -->|Approval Required| H[Human Review]
+    H -->|Approved| F
+    H -->|Rejected| G
+    F --> I[Observe Result]
+    I --> J[(Memory and State)]
+    J --> C
+    I --> K{Goal Achieved?}
+    K -->|No| C
+    K -->|Yes| L([Complete Task])
+```
+
+**Security note:** This diagram extends the basic agentic decision cycle with recommended authorization, human approval, and audit controls. These safeguards help prevent unauthorized actions by autonomous agents.
+  
+
 ## 3. Traditional LLM vs Workflow vs Agent
 
 | Feature | Traditional LLM | Predefined Workflow | Agentic AI |
