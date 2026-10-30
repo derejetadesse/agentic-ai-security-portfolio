@@ -47,7 +47,7 @@ The OWASP Top 10 for Agentic Applications addresses security concerns arising fr
 | 01 | Introduction to Agentic AI Security | README introduction | Study notes prepared |
 | 02 | Putting the Agency in Agentic | [Task 2 Notes](notes/02-putting-the-agency-in-agentic.md) | Study notes prepared |
 | 03 | ReAct and Agent Tools | [Task 3 Notes](notes/03-react-and-agent-tools.md) | Study notes prepared |
-| 04 | Multi-Agent Systems | Documentation pending | To verify |
+| 04 | Multi-Agent Systems | [Task 4 Notes](notes/04-multi-agent-systems.md) | Study notes prepared |
 | 05 | Agent Communication: MCP and A2A | [Task 5 Notes](notes/05-agent-communication-mcp-a2a.md) | Study notes prepared |
 | 06 | Least Agency | [Task 6 Notes](notes/06-least-agency.md) | Study notes prepared |
 | Practical Labs | Hands-on security exercises | To be documented | Planned |
